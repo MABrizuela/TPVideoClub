@@ -34,7 +34,7 @@ public class App
 		System.out.println("--------------------------------------");
 		System.out.println("");
 		Tarjeta tarjeta = new Tarjeta(100, 6282,"2/2/2023");
-		Socio socio = new Socio("Maximiliano", "Brizuela", "42.187.176", "Av San Nicolás de Bari","3804798575", "MABRizuela11@gmail.com","11/11/1999",22, 5, tarjeta);
+		Socio socio = new Socio("Jaime", "Valenzuela", "42.184.172", "Calle Buenos Aires","3804224212", "JValenzuela1@gmail.com","11/9/1999",22, 5, tarjeta);
 		System.out.println("\nSocio");
 		System.out.println("");
 		Pedido pedido = new Pedido(0, socio, p);
